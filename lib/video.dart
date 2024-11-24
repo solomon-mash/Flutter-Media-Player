@@ -25,7 +25,7 @@ class _VideoListPageState extends State<VideoListPage> {
     refresh_times += 1;
     if (refresh_times <= 1) {
       print(refresh_times);
-      _requestStoragePermission();
+       _loadPersistedVideos();
     } else {
       _isLoading = false;
       print("Videos already loaded no need for reload");
@@ -248,6 +248,7 @@ class _VideoListPageState extends State<VideoListPage> {
 
         _isLoading = false;
       } else {
+        _requestStoragePermission();
         setState(() {});
       }
     });
