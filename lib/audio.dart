@@ -23,7 +23,6 @@ class _AudioListState extends State<AudioList> {
     super.initState();
     if (audiorefresh_times <= 1) {
       _loadPersistedAudio();
-      _requestStoragePermission();
     } else {
       isScanning = false;
 
@@ -217,6 +216,8 @@ class _AudioListState extends State<AudioList> {
         isScanning = false;
       });
     } else {
+      _requestStoragePermission();
+
       setState(() {});
     }
   }
