@@ -25,3 +25,7 @@
 
 ## Enjoy a unified media experience across both video and audio!
 - The application is still in development and more features and functionalities will be added in future.
+## ScreenShots
+![videoInterface](https://github.com/user-attachments/assets/5af9c8a3-0ac8-4a39-8be4-856f461ba9d6)
+![videoLoading](https://github.com/user-attachments/assets/7c0b56e4-28d3-4901-a181-562c3e8ae0a6)
+
